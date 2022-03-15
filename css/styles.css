@@ -57,6 +57,7 @@ body {
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-nav-list {
   display: flex;
