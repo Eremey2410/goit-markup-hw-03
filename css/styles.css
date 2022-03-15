@@ -47,14 +47,24 @@ body {
   margin-right: auto;
 }
 /* header */
+
 .header {
   background-color: #ffffff;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+}
 .header-nav-list {
+  display: flex;
   margin: 0;
   padding: 0;
 }
 .header-list {
+  display: flex;
   margin: 0;
   padding: 0;
 }
