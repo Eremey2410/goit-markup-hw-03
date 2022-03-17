@@ -178,8 +178,9 @@ body {
 
 /* section features */
 .features {
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 94px;
 }
 .features-list {
   display: flex;
@@ -216,8 +217,10 @@ body {
 /* section work */
 
 .work {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work-title {
@@ -247,7 +250,7 @@ body {
 /* section comand */
 
 .comand {
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 0;
 
   background-color: #f5f4fa;
@@ -350,8 +353,10 @@ body {
   background-color: #ffffff;
 }
 .filter {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filter-btn {
   border-radius: 4px;
@@ -361,7 +366,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding-left: 0;
 }
 .filter-item + .filter-item {
