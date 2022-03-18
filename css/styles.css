@@ -50,6 +50,7 @@ body {
 /* header */
 
 .header {
+  padding: 25px 0;
   background-color: #ffffff;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -127,7 +128,8 @@ body {
 }
 .hero-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+  padding: 200px 452px 30px 452px;
 
   font-style: normal;
   font-weight: 900;
@@ -141,6 +143,10 @@ body {
 /* buttons */
 
 .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  padding: 10px 32px;
   border: none;
   border-radius: 4px;
   font-family: inherit;
@@ -252,6 +258,7 @@ body {
 .comand {
   margin-top: 0px;
   margin-bottom: 0;
+  padding: 94px;
 
   background-color: #f5f4fa;
 }
@@ -259,7 +266,6 @@ body {
 .comand-title {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
 
   font-style: normal;
   font-weight: 700;
@@ -274,7 +280,6 @@ body {
   margin-top: 50px;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
 
   text-align: center;
 }
@@ -289,8 +294,12 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.comand-title-man-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .comand-title-man {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
 
   font-style: normal;
@@ -303,7 +312,6 @@ body {
 .comand-text {
   margin-top: 10px;
   margin-bottom: 0;
-  padding-bottom: 30px;
 
   font-style: normal;
   font-weight: 400;
@@ -317,6 +325,11 @@ body {
 }
 
 /* footer */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-logotype {
   margin-top: 60px;
@@ -338,7 +351,6 @@ body {
 .footer-list {
   margin: 0;
   padding-left: 0;
-  padding-bottom: 60px;
 }
 .footer-item {
   margin-top: 9px;
